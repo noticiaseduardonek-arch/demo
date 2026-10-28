@@ -1,0 +1,16 @@
+{
+  "name": "control-lecturas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "css": "tailwindcss -c tailwind.config.js -i src/input.css -o www/app.css --minify"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
